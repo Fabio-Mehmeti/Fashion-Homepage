@@ -1,0 +1,136 @@
+
+/* ----------------------------------------------- */
+/* BASIC SETUP  */ 
+/* ----------------------------------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-color: #fff;
+    color: #555;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+.clearfix {zoom: 1;}
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+/* ----------------------------------------------- */
+/* REUSABLE COMPONENTS */
+/* ----------------------------------------------- */
+
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+section {
+    padding: 80px 0;
+}
+
+.box {
+    padding: 1%;
+}
+
+/* -------------------------------------------------- */
+/* HEADER */
+/*--------------------------------------------------- */
+
+.section-header {
+    background-image: -webkit- url(img/hero.png);
+    background-image:url(img/hero.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+.hero-text-box {
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+/*-------- Heading ----------*/
+
+h1 {
+    font-weight: 300;
+    
+}
+
+
+/* ----- PARAGRAPHS ----- */
+.long-copy {
+    line-height: 145%;
+    width: 70%;
+    margin-left: 15%;
+}
+
+.box p {
+    font-size: 90%;
+    line-height: 145%;
+}
+
+
+/* ----- LINKS ----- */
+
+a:link,
+a:visited {
+    color: #C9A96E;
+    text-decoration: none;
+    padding-bottom: 1px;
+    border-bottom: 1px solid #C9A96E;
+    -webkit-transition: border-bottom 0.2s, color 0.2s;
+    transition: border-bottom 0.2s, color 0.2s;
+}
+
+a:hover,
+a:active {
+    color: #555;
+    border-bottom: 1px solid transparent;
+}
+
+/* ------- Logo ------------*/
+
+
+
+.logo {
+    height: 50px;
+    width: auto;
+    float: left;
+    margin-top: 20px;
+}
+
+/*------ Main Nav -----------*/
+
+.main-nav {
+    float: right;
+    list-style: none;
+    margin-top: 35px;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+
