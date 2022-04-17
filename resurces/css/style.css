@@ -184,3 +184,34 @@ a:active {
 
 
 
+
+.main-content {
+    width: 75%;
+    float: left;
+}
+
+.other-post {
+    width: 25%;
+    float: right;
+     
+}
+
+.categories-main-box {
+     margin-top: 5px;
+   background-color: #fff;
+    border-radius: 5px;
+    width: 75%;
+    margin-left: 5%;
+    box-shadow: 0 2px 2px #cbcbcb;
+}
+
+.categories-other-box {
+    margin-top: 5px;
+   background-color: #fff;
+    border-radius: 5px;
+    width: 30%;
+    margin-left: 5%;
+    box-shadow: 0 2px 2px #cbcbcb;
+}
+
+
