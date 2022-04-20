@@ -78,7 +78,11 @@ header {
 h1 {
     font-weight: 400;
     color: #FFFFFF;
-
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 240%;
+    word-spacing: 4px;
+    letter-spacing: 1px;
 }
 
 h2 {
@@ -102,12 +106,32 @@ h4 {
 h5 {
     text-align: center;
 }
+h7 {
+    display: inline-block;
+    text-align: center;
+    color: 171717;
+    margin-left: 20%;
+    margin-bottom: 10px;
+}
+
+h9 {
+    color: #B1B1B1;
+    font-size: 90%;
+    margin-bottom: 15px;
+    margin-top: 100px;
+}
+
+h10 {
+    color: #C9A96E;
+    margin-left: 25%;
+}
 
 /* ----- PARAGRAPHS ----- */
 .long-copy {
     line-height: 145%;
     width: 70%;
-    margin-left: 15%;
+    text-align: center;
+    margin-left: 15%
 }
 
 .box p {
@@ -215,3 +239,102 @@ a:active {
 }
 
 
+
+.other-post-head-box {
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    -webkit-transition: background-color 0.2s, border 0.2s, color 0.2s;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+.btn:link,
+.btn:visited,
+input[type=submit] {
+    display: inline-block;
+    padding: 15px 75px;
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 90%;
+    -webkit-transition: background-color 0.2s, border 0.2s, color 0.2s;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+.btn-full:link,
+.btn-full:visited,
+input[type=submit] {
+    background-color: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    color: #171717;
+    
+    margin-bottom: 20px;
+}
+.btn-below { 
+    background-color: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    color: #171717;
+    margin-bottom: 70px;
+    
+}
+
+
+
+
+.btn-below:link,
+.btn-below:visited {
+    border: 1px solid #e5e5e5;
+    color: #background: #C9A96E;
+;
+}
+
+.btn:hover,
+.btn:active,
+input[type=submit]:hover,
+input[type=submit]:active {
+    background-color: #ededed;
+}
+
+.btn-full:hover,
+.btn-full:active {
+    border: 1px solid #E5E5E5;
+}
+
+.btn-ghost:hover,
+.btn-ghost:active {
+    border: 1px solid #cf6d17;
+    color: #fff;
+}
+.categories {
+    list-style: none;
+    margin-bottom: 70px
+
+}
+.categories li {
+    display:
+    
+}
+
+
+.photo-other {
+    width:70%;
+    height: auto;
+    
+}
+
+.presentation {
+    color: #B1B1B1;
+    font-size: 90%;
+    margin-bottom: 15px;
+    margin-top: px;
+    margin-left: 15%;
+    
+}
+
+.other-text {
+    line-height: 145%;
+    width: 70%;
+    text-align: center;
+    font-size: 90%;
+}
